@@ -1,0 +1,139 @@
+body{
+    background-color: 
+}
+.item img{
+    min-width: 100%;
+    
+}
+item{
+    height:20%;
+}
+.carousel-inner{
+    width: 100%;
+    max-height:750px;
+}
+.pic{
+    height: 20%;
+}
+#nav{
+    position: fixed;
+    top: 20px;
+}
+#nav li a{
+    color: #f7f7f7;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus{
+    background-color: #545454;
+}
+
+#menu ul li:not(.active) a:hover{
+    color: #336b87;
+}
+#navbar{
+    background-color: transparent;
+    border: none;
+    color: white;
+    transition: background-color .5s, color .5s, height .5s;
+}
+#menu-button{
+    background-color:#f9f9f9;
+}
+.nav.navbar-nav li a{
+    color: white;
+}
+.navbar-default .navbar-brand{
+    font-size: 27px;
+    color: white;
+}
+
+
+
+.navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background: #336b87;
+    border-radius: 4px;
+ }
+
+
+#locations-header{
+    margin-top: 55px;
+}
+
+.locations{
+    margin-top: 55px;
+}
+
+#locations-menu{
+    margin-top: 30px;
+}
+
+
+
+
+.locations-info{
+    margin-top: 50px;
+}
+.description{
+    height:179px;
+    
+}
+#description-p{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    margin-right: 48px;
+}
+#thumbnail{
+    margin-top: 1px;
+}
+
+#menus>li>a:visited {
+    background-color: transparent;
+    color: #337ab7;
+}
+
+.img{
+    height: auto;
+    width: 100%;
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+    -moz-filter: brightness(90%);
+    -o-filter: brightness(90%);
+    -ms-filter: brightness(90%);
+}
+.img-container{
+    position: relative;
+}
+.img-header{
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    color: white;
+    z-index: 1;
+    transform: translateX(-50%);
+}
+
+.quote{
+    position: absolute;
+    bottom:40%;
+    left: 22%;
+    width:60%;
+    color: white;
+    
+    text-indent: 30px;
+    font-size: 40px;
+}
+@media screen and (max-width:768px){
+    .quote{
+        display: none;
+    }
+}
+
+.disappear{
+    display: none;
+}
