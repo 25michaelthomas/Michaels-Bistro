@@ -151,12 +151,13 @@ $(function () {
         input[i].parent().addClass("has-error");
         input[i].popover("show");
 
-      } else if ($(".has-error").length === 0) {
-        $(".submit-button").attr("class", "btn  submit-button btn-success");
-        $(".submit-button").html("Message Sent <span class='glyphicon glyphicon-ok'></span>");
       }
-    }
 
+    }
+    if ($(".has-error").length === 0) {
+      $(".submit-button").attr("class", "btn  submit-button btn-success");
+      $(".submit-button").html("Message Sent <span class='glyphicon glyphicon-ok'></span>");
+    }
   });
 
   $(".contact-form").on('focusin', function (e) {
